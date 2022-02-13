@@ -27,22 +27,24 @@
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <img class="search" src="images/icons/search.svg" width="18" height="18" alt="Поиск">
+            <img class="search" src="images/icons/search.svg" width="42" height="66" alt="Поиск">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">Поиск
               </span>
             </a>
           </li>
           <li class="navigation-item">
-            <img class="favorite" src="images/icons/favorite.svg" width="18" height="17" alt="Лайки">
-            <img class="number" src="images/icons/number.svg" width="20" height="20" alt="Лайки-Количество">
+            <img class="favorite" src="images/icons/favorite.svg" width="42" height="66" alt="Лайки">
+          
             <a class="navigation-link" href="#">
               <span class="visually-hidden">Лайки
               </span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link-want" href="#">Хочу сюда</a>
+          <li class="navigation-item-button">
+            <span class="navigation-item-button">
+            <a class="navigation-link-want" href="#">Хочу сюда!</a>
+          </span>
           </li>
         </ul>
       </nav>
@@ -122,6 +124,7 @@
         </div>
       </header>
 
+      <div class="filters-result">
       <section class="hotels-found">
         <h2 class="hotels-found-title">Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка">
@@ -231,11 +234,8 @@
           </li>
         </ul>
 
-        <div class="more">
-          <section class="loading-more">
-            <button class="button loading-more" type="button">Загрузить ещё</button>
-          </section>
-        </div>
+        <a class="loading-more" href="#">ЗАГРУЗИТЬ ЕЩЕ
+        </a>
       </div>
 
       <div class="pagination-container">
@@ -261,13 +261,15 @@
         </ul>
 
 
-        <p class="hotel-page">Гостиниц на странице:</p>
+        <span class="hotel-page">Гостиниц на странице:</span>
 
         <select class="select-control" aria-label="Сортировка">
           <option value="four">4</option>
         </select>
       </div>
+      </div>
 
+      
       <div class="subscribe-catalog">
         <h2 class="visually-hidden">Подписка
         </h2>
