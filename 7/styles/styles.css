@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -476,6 +476,7 @@ body {
   background-color: grey;
   background-image: url("../images/backgrounds/catalog-background_1.jpg");
   background-repeat: no-repeat;
+  padding: 35px 72px 83px 72px;
 }
 
 .inner-header-title {
@@ -485,9 +486,8 @@ body {
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
-  padding-left: 71px;
-  margin: 0 auto;
-
+  margin: 0;
+  padding: 0;
 }
 
 .infrastructure-filter {
@@ -556,9 +556,6 @@ body {
 
 .hotels-found {
   display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .hotels-found-title {
@@ -566,6 +563,8 @@ body {
   font-size: 30px;
   line-height: 39px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .select-control {
@@ -583,6 +582,7 @@ body {
 
 .hotels {
   justify-content: space-between;
+  
 }
 
 .hotel-string {
@@ -592,6 +592,8 @@ body {
 .hotels-list {
   background-color: #ffffff;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .hotels-card-link {
@@ -673,6 +675,8 @@ body {
   display: flex;
   color: #ffffff;
   list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
 }
 
 .pagination-link {
@@ -747,3 +751,4 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
