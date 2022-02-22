@@ -468,6 +468,15 @@ body {
   justify-content: space-between;
 }
 
+.page-footer-catalog {
+  color: #000000;
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 180px;
+  width: 1200;
+  justify-content: space-between;
+}
+
 .contacts-phone {
   font-weight: 400;
   font-size: 40px;
@@ -478,6 +487,12 @@ body {
   text-decoration: none;
 }
 
+.footer-social {
+  width: 107px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .inner-header {
   width: 1200px;
@@ -557,13 +572,13 @@ body {
 }
 
 .filters-result {
-  padding-top: 44px;
-  padding-right: 72px;
-  padding-left: 72px;
+  margin: 53px 72px 30px 72px;
+  
 }
 
 .hotels-found {
   display: flex;
+  margin: 44px 71px 53px 71px;
 }
 
 .hotels-found-title {
@@ -575,10 +590,12 @@ body {
   padding: 0;
 }
 
-.select-control {
+.select-control-found {
   color: #333333;
   background-color: #ffffff;
   margin-left: 192px;
+  width: 287px;
+  height: 48px; 
 }
 
 .button-cards {
@@ -588,19 +605,25 @@ body {
   margin-left: 81px;
 }
 
-.hotels {
-  justify-content: space-between;
-}
-
-.hotel-string {
-  display: flex;
-}
 
 .hotels-list {
-  background-color: #ffffff;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: 340px;
+  height: 438px;
+  margin-bottom: 10px;
+}
+
+.product-card-hotel {
+  padding: 20px;
+  
 }
 
 .hotels-card-link {
@@ -660,8 +683,6 @@ body {
 }
 
 .loading-more {
-  width: 620px;
-  height: 60px;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
@@ -671,8 +692,16 @@ body {
   text-decoration: none;
   display: block;
   font-weight: 700;
+  padding: 17px;
+
+  
+}
+
+.loading-more-button {
   margin: 64px 290px 60px 290px;
-  padding-top: 17px;
+  width: 620px;
+  height: 60px;
+  
 }
 
 
@@ -686,6 +715,7 @@ body {
   list-style-type: none;
   padding: 0;
   margin-top: 60px;
+  margin-left: 72px
 }
 
 .pagination-link {
@@ -718,7 +748,7 @@ body {
   line-height: 23px;
   padding-left: 300px;
   width: 175px;
-  margin: auto;
+  margin-top: 76px;
 }
 
 .select-control {
@@ -726,7 +756,8 @@ body {
   height: 48px;
   font-size: 18px;
   line-height: 23px;
-  margin: auto;
+  margin-top: 63px;
+  margin-left: 51px;
 }
 
 .subscribe-catalog {
