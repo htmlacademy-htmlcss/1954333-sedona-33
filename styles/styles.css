@@ -467,7 +467,7 @@ body {
   margin: 28px auto 93px auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .subscribe {
@@ -571,6 +571,7 @@ body {
   line-height: 78px;
   color: #ffffff;
   margin: 0;
+  padding-top: 35px;
 }
 
 .infrastructure-filter {
@@ -639,8 +640,11 @@ body {
 }
 
 .hotels-found {
+  padding: 44px 71px 53px 71px;
+}
+
+.hotels-found-header {
   display: flex;
-  margin: 44px 71px 53px 71px;
 }
 
 .hotels-found-title {
@@ -654,7 +658,7 @@ body {
 
 .select-control-found {
   color: #333333;
-  margin-left: 189px;
+  margin-left: auto;
   width: 287px;
   height: 48px;
   border: 2px solid #E6E6E6;
@@ -707,10 +711,6 @@ body {
   width: 16px;
   height: 14px;
   padding: 17px 16px 17px 16px;
-}
-
-.filters-result {
-  margin: 53px 72px 30px 72px;
 }
 
 .hotels-list {
@@ -838,13 +838,14 @@ body {
 }
 
 .loading-more-button {
-  margin: 64px 290px 60px 290px;
+  margin: 64px auto 60px auto;
   width: 620px;
   height: 60px;
 }
 
 .pagination-container {
   display: flex;
+  align-items: center;
 }
 
 .pagination {
@@ -852,8 +853,6 @@ body {
   color: #ffffff;
   list-style-type: none;
   padding: 0;
-  margin-top: 60px;
-  margin-left: 72px
 }
 
 .pagination-link {
@@ -886,7 +885,6 @@ body {
   line-height: 23px;
   padding-left: 300px;
   width: 175px;
-  margin-top: 76px;
 }
 
 .select-control {
@@ -894,7 +892,6 @@ body {
   height: 48px;
   font-size: 18px;
   line-height: 23px;
-  margin-top: 63px;
   margin-left: 51px;
 }
 
@@ -915,7 +912,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin: 0 auto;
-  padding: 73px 240px 23px 240px;
+  padding: 73px auto 23px auto;
 }
 
 .description-subscribe-catalog {
@@ -924,7 +921,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  padding: 23px 240px 23px 240px;
+  padding: 23px auto 23px auto;
   height: 52px;
   width: 720px;
 }
